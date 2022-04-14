@@ -11,6 +11,20 @@ let clienteLilit = [
     {produto: 'Tênis casual preto', valor: 120.0}, 
     {produto: 'meia calça transparente', valor: 30.0}]
 
+let clienteAmitair = [
+  { produto: 'jaqueta de couro', valor: 1000.0 },
+  { produto: 'Bolsa grande', valor: 150.0 },
+  { produto: 'Calça branca', valor: 100.0 },
+  { produto: 'camiseta preta', valor: 60.0 }
+]
+
+let clienteMaria = [
+    { produto: 'Saia longa', valor: 350.0 },
+    { produto: 'Cropped', valor: 80.0 },
+    { produto: 'Tênis branco', valor: 90.0 },
+    {produto: 'blusa xadrez', valor: 100.0 }
+]
+
 function realizarCompra(comprasDaCliente) {
     let valorTotal = 0 // variável com a soma de todos os valores dos produtos sem desconto
     let descontoAplicado = 0 // variável com a soma de todos os descontos aplicados
@@ -61,3 +75,5 @@ function realizarCompra(comprasDaCliente) {
 }
 
 realizarCompra(clienteLilit)
+realizarCompra(clienteAmitair)
+realizarCompra(clienteMaria)
